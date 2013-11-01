@@ -33,7 +33,7 @@ namespace RelativeLineNumbers
 	/// </summary>
 	[Export(typeof(IWpfTextViewMarginProvider))]
 	[Name(RelativeLineNumbers.MarginName)]
-	[Order(After = PredefinedMarginNames.LineNumber)]
+	[Order(After = PredefinedMarginNames.Glyph)]
 	[MarginContainer(PredefinedMarginNames.Left)]
 	[ContentType("code")]
 	[TextViewRole(PredefinedTextViewRoles.Document)]
